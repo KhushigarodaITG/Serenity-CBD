@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/root.css">
+</head>
+
+<body>
+    <!-- announcement bar -->
+    <section class="anouncement-bar-wrapper color-scheme-1 relative">
+        <div class="page-width">
+            <div class="announcement-bar-inner">
+                <p class="primary-paragraph text-center">Free Shipping On Orders Over $50</p>
+            </div>
+        </div>
+    </section>
+    <section class="banner-wrapper absolute">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex">
+                    <img src="./assets/banner-image.jpg" alt="banner-image" />
+                </div>
+                <div class="swiper-slide flex">
+                    <img src="./assets/banner-image.jpg" alt="banner-image" />
+                </div>
+                <div class="swiper-slide flex">
+                    <img src="./assets/banner-image.jpg" alt="banner-image" />
+                </div>
+                <div class="swiper-slide flex">
+                    <img src="./assets/banner-image.jpg" alt="banner-image" />
+                </div>
+            </div>
+            <div class="swiper-pagination flex gap-scheme-1 justify-center"></div>
+        </div>
+    </section>
+
+    <section class="header-wrapper relative">
+        <div class="page-width">
+            <div class="header-inner-content">
+                <div class="header-inner grid">
+                    <div class="navlinks-outer flex center justify-between">
+                        <nav class="navbar">
+                            <ul class="navlinks list-style-unset flex gap-scheme-1">
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">learn</a>
+                                    </div>
+                                </li>
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">Shop</a>
+                                    </div>
+                                </li>
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">Blog</a>
+                                    </div>
+                                </li>
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">Connect</a>
+                                    </div>
+                                </li>
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">My Account</a>
+                                    </div>
+                                </li>
+                                <li class="navlink">
+                                    <div class="navlink-inner">
+                                        <a href="#" class="secondary-paragraph">Store Locator</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-logo">
+                        <a href="#">
+                            <h1><img src="./assets/header-logo.png" alt="logo" width="100%" height="100%"></h1>
+                        </a>
+                    </div>
+                    <div class="header-icons flex center">
+                        <div class="header-icons-inner flex center gap-scheme-1">
+                            <span class="svg-wrapper">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.824 18.648C15.1451 18.648 18.648 15.1451 18.648 10.824C18.648 6.50292 15.1451 3 10.824 3C6.50292 3 3 6.50292 3 10.824C3 15.1451 6.50292 18.648 10.824 18.648Z"
+                                        stroke="white" stroke-width="1.5" />
+                                    <path d="M16.9707 16.9709L21.4407 21.4409" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="square" />
+                                </svg>
+                            </span>
+                            <span class="svg-wrapper">
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10 0C11.3261 0 12.5979 0.526784 13.5355 1.46447C14.4732 2.40215 15 3.67392 15 5C15 6.32608 14.4732 7.59785 13.5355 8.53553C12.5979 9.47322 11.3261 10 10 10C8.67392 10 7.40215 9.47322 6.46447 8.53553C5.52678 7.59785 5 6.32608 5 5C5 3.67392 5.52678 2.40215 6.46447 1.46447C7.40215 0.526784 8.67392 0 10 0ZM10 1.429C9.05291 1.429 8.14461 1.80523 7.47492 2.47492C6.80523 3.14461 6.429 4.05291 6.429 5C6.429 5.94709 6.80523 6.85539 7.47492 7.52508C8.14461 8.19477 9.05291 8.571 10 8.571C10.9471 8.571 11.8554 8.19477 12.5251 7.52508C13.1948 6.85539 13.571 5.94709 13.571 5C13.571 4.05291 13.1948 3.14461 12.5251 2.47492C11.8554 1.80523 10.9471 1.429 10 1.429Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1 16.25C1 13.764 5.542 12.25 10.028 12.25C14.514 12.25 19 13.764 19 16.25V19.25H1V16.25Z"
+                                        stroke="white" stroke-width="1.5" />
+                                    <path
+                                        d="M10 9.25C12.3472 9.25 14.25 7.34721 14.25 5C14.25 2.65279 12.3472 0.75 10 0.75C7.65279 0.75 5.75 2.65279 5.75 5C5.75 7.34721 7.65279 9.25 10 9.25Z"
+                                        stroke="white" stroke-width="1.5" />
+                                </svg>
+                            </span>
+                            <span class="svg-wrapper">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_6701_2652)">
+                                        <path
+                                            d="M15.3207 9.5V5.321C15.3207 4.44022 14.9708 3.59551 14.348 2.9727C13.7252 2.34989 12.8805 2 11.9997 2C11.1189 2 10.2742 2.34989 9.65141 2.9727C9.0286 3.59551 8.67871 4.44022 8.67871 5.321V9.5"
+                                            stroke="white" stroke-width="1.5" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.357 7.70496H18.643L19.75 21.268H4.25L5.357 7.70496Z" stroke="white"
+                                            stroke-width="1.5" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_6701_2652">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>

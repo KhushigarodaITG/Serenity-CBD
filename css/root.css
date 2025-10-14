@@ -1,0 +1,36 @@
+:root {
+    /* colorscheme for bg */
+    --primary-color-background: rgba(38, 163, 219, 1);
+    --secondary-color-background: rgba(233, 246, 251, 1);
+    --tertiary-color-background: rgba(255, 255, 255, 1);
+    --quaternary-color-background: rgba(249, 249, 249, 1);
+    --quinary-color-background: rgba(255, 255, 255, 1);
+    /* colorscheme for text */
+    --primary-color-foreground:  rgb(255, 255, 255);
+    --secondary-color-foreground:  rgba(0, 0, 0, 1);
+    --tertiary-color-foreground:  rgba(38, 163, 219, 1);
+    --quaternary-color-foreground: rgba(255, 255, 255, 0.7);
+    /* font-family */
+    --primary-font-family: 'nunito';
+    --secondary-font-family: 'Americana';
+    /* font-size */
+    --primary-font-size: 14px;
+    --secondary-font-size: 16px;
+    --tertiary-font-size: 36px;
+    --quadrinary-font-size: 18px;
+    --quinary-font-size: 20px;
+    --senary-font-size: 28px;
+    /* font-weight */
+    --primary-font-weight: 400;
+    --secondary-font-weight: 500;
+    --tertiary-font-weight: 700;
+    /* line height */
+    --primary-line-height: 100%;
+    --secondary-line-height: 26px;
+    /* letter spacing */
+    --primary-letter-spacing: 0%;
+    /* padding */
+    --text-padding: 10px;
+    /* gap */
+    --primary-gap: 20px;
+}
