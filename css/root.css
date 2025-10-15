@@ -3,7 +3,7 @@
     --primary-color-background: rgba(38, 163, 219, 1);
     --secondary-color-background: rgba(233, 246, 251, 1);
     --tertiary-color-background: rgba(255, 255, 255, 1);
-    --quaternary-color-background: rgba(249, 249, 249, 1);
+    --quaternary-color-background: rgb(249, 249, 249);
     --quinary-color-background: rgba(255, 255, 255, 1);
     /* colorscheme for text */
     --primary-color-foreground:  rgb(255, 255, 255);
@@ -31,6 +31,12 @@
     --primary-letter-spacing: 0%;
     /* padding */
     --text-padding: 10px;
+    /* border-radius */
+    --primary-border-radius: 5px;
     /* gap */
     --primary-gap: 20px;
+    --secondary-gap: 30px;
+    --tertiary-gap: 10px;
+    --quinary-gap: 80px;
+    
 }
